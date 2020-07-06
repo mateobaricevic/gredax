@@ -1,0 +1,44 @@
+.bg-primarna
+{
+    background-color: #009F4D;
+    background-color: #337300;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    padding-top: 76px;
+}
+
+#content
+{
+    min-height: calc(100% - 25px);
+    margin-bottom: -72px;
+    padding-bottom: 72px;
+}
+
+.shadow-dark
+{
+    box-shadow: 0px 0px 16px #444;
+}
+
+.shadow-light
+{
+    box-shadow: 0px 0px 10px #666;
+}
+
+#kontakt a
+{
+    color: palegreen;
+}
+
+#kontakt a:hover
+{
+    text-decoration: none;
+    color: lightgreen;
+    text-shadow: 1px 1px 2px #333;
+}
